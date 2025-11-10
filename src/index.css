@@ -5,3 +5,7 @@
   --color-pure-red: #ff0000;
   --color-primary: #16a34a;
 }
+
+.my-btn{
+  @apply bg-violet-500 text-white rounded-lg p-3 mt-4 border-2 border-red-400 cursor-pointer
+}

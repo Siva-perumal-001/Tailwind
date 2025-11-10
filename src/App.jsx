@@ -41,11 +41,54 @@ const App = () => {
     <div className='h-8 w-8 m-3 bg-pure-red rounded-full'></div>
     <h2 className='bg-purple-400 text-pink-900'>text color</h2>
 
-    <button className='bg-amber-700 text-white p-3 m-10 border-3 border-slate-900 rounded-4xl hover:bg-amber-400 hover:text-black cursor-pointer'>
+    <button className='bg-amber-700 text-white p-3 m-5 border-3 border-slate-900 rounded-4xl hover:bg-amber-400 hover:text-black cursor-pointer'>
       Click here
-      </button>
-    </>
-  )
-}
+    </button>
 
-export default App
+    <div className='container bg-gray-400 mx-auto p-3 rounded-xl relative border-2 border-red-400'>
+      <p className='mb-5 '>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus illum laudantium, 
+        molestiae expedita culpa animi dolorum ex iste eveniet possimus fugiat consequatur deleniti 
+        facilis doloremque voluptatum ratione perspiciatis quam officia nostrum maiores, reprehenderit 
+        sapiente excepturi? Hic eligendi dolorum excepturi libero maiores ducimus molestiae unde rerum ab 
+        laudantium eius, enim provident eaque eveniet, sapiente nobis fuga quidem accusamus iure dolores
+      </p>
+      <div className='absolute bottom-0  transform translate-y-5'>
+      <button className='bg-pink-500 text-white rounded-lg p-2 '>
+          I_am_btn
+        </button>
+      </div>
+    </div>
+
+      <div className='text-center mt-8 bg-red-300 md:bg-blue-300 lg:bg-green-400'>
+        responsive color bg changes
+      </div>
+
+      <div className='mt-4 bg-amber-600 flex justify-around items-center h-20'>
+        <div className="bg-emerald-300">div 1</div>
+        <div className="bg-emerald-300">div 2</div>
+        <div className="bg-emerald-300">div 3</div>
+      </div>
+
+      <div className='grid grid-cols-3 gap-1 container mx-auto my-3 text-white'>
+        <div className="bg-pink-600 text-center">content 1</div>
+        <div className="bg-pink-600 text-center">content 2</div>
+        <div className="bg-pink-600 text-center">content 3</div>
+        <div className="bg-pink-600 text-center">content 4</div>
+        <div className="bg-pink-600 text-center">content 5</div>
+        <div className="bg-pink-600 text-center">content </div>
+      </div>
+
+     <div className='flex gap-5'>
+      <button className='my-btn'>click me</button>
+      <button className='my-btn'>submit</button>
+      <button className='my-btn'>button</button>
+     </div>
+
+
+    </>
+
+  )
+  }
+
+export default App;
