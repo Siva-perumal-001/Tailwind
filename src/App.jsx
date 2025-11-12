@@ -79,15 +79,39 @@ const App = () => {
         <div className="bg-pink-600 text-center">content </div>
       </div>
 
-     <div className='flex gap-5'>
+     <div className='flex gap-5 mb-5'>
       <button className='my-btn'>click me</button>
       <button className='my-btn'>submit</button>
       <button className='my-btn'>button</button>
      </div>
 
+     <div className='mb-5'>
+      <p className='bg-green-200 leading-tight'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat qui reprehenderit ipsa.</p>
+      <p className='bg-red-200 leading-relaxed'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis eveniet laborum natus dignissimos accusamus temporibus incidunt modi soluta sunt ullam.</p>
+      <p className='bg-yellow-200 leading-loose'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat qui reprehenderit ipsa.</p>
+     </div>
+
+     <div className='ml-5 mb-5'>
+      <p className='tracking-tighter'>This is the Tighter Text</p>
+      <p className='tracking-tight'>This is the Tight Text</p>
+      <p className='tracking-wide'>This is the Wide Text</p>
+      <p className='tracking-wider'>This is the wider Text</p>
+      <p className='tracking-widest'>This is the Widest Text</p>
+     </div>
+
+     <div className='w-3xl mx-auto mb-5'>
+      <p className='text-left'>Left</p>
+      <p className='text-center'>Center</p>
+      <p className='text-right'>Right</p>
+     </div>
+
+     <div className='mb-5'> 
+      <p className='truncate w-2xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, ipsam expedita assumenda, corrupti, ut saepe aliquam enim velit perspiciatis </p>
+      <p className='line-clamp-1'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi quis rerum ipsa! Dolore, optio laudantium! Cum enim quis facere perferendis, aliquid mollitia alias nemo fugiat, consectetur dignissimos ex accusamus, facilis odio? Iste, fuga deserunt! Perspiciatis labore, ratione at dolorem nemo veritatis dicta temporibus animi, optio asperiores eveniet deserunt, iure explicabo?</p>
+     </div>
+
 
     </>
-
   )
   }
 
